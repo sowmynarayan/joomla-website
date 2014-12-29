@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE project>
+<metadata>
+	<view title="TYPE_COMMENT">
+		<message>
+			<![CDATA[TYPE_COMMENT_DESC]]>
+		</message>
+	</view>
+</metadata>

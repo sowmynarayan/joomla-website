@@ -1,0 +1,15 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2006 - 2009 JoomlaShine.com. All rights reserved.
+* @license   Copyrighted Commercial Software
+* This file may not be redistributed in whole or significant part.
+*/
+.clearafter,
+ul.menu-treemenu li,
+ul.list-number-bullet li,
+ul.list-number-digit li {
+	height: 1%;
+}
+div.jsn-modulecontainer div.jsn-middle {
+	display: inline-block;
+}

@@ -1,0 +1,778 @@
+/**
+* author    JoomlaShine.com http://www.joomlashine.com
+* copyright Copyright (C) 2006 - 2009 JoomlaShine.com. All rights reserved.
+* license   Copyrighted Commercial Software
+* This file may not be redistributed in whole or significant part.
+*/
+/* ============================== TYPOGRAPHY  ============================== */
+/* =============== COMMON SETTINGS =============== */
+.align-left {
+	float: left;
+	margin-right: 1em;
+}
+.align-right {
+	float: right;
+	margin-left: 1em;
+}
+.align-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.content-center {
+	text-align: center;
+}
+.clearbreak {
+	clear: both;
+}
+.hd {
+	display: none;
+}
+/* =============== GENERAL SETTINGS =============== */
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 75%;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+p, pre, blockquote, form, dl, ul, ol, fieldset, address {
+	margin: 0.35em 0 0.8em 0;
+	padding: 0;
+}
+fieldset {
+	padding: .5em;
+}
+small {
+	font-size: .85em;
+}
+sup {
+	font-size: .8em;
+	position: relative;
+	bottom: 0.3em;
+	vertical-align: baseline;
+}
+sup em {
+	color: red;
+}
+acronym, abbr {
+	border-bottom: 1px dashed;
+	letter-spacing: 1px;
+	cursor: help;
+}
+pre {
+	background: #FFFFD5;
+	font-family: "Courier New",Courier,monospace;
+	padding: 1em;
+	border-left: 5px solid #404040;
+}
+blockquote {
+	font-style: italic;
+	min-height: 45px;
+	color: #404040;
+	padding-left: 55px;
+	background: url(../images/icon-text-blockquote-24.png) no-repeat top left;
+}
+/* =============== HEADING STYLES =============== */
+/* @HEADING */
+h1 {
+	font-size: 1.4em;
+	color: #000000;
+}
+h2 {
+	font-size: 1.3em;
+	color: #000000;
+}
+h3 {
+	font-size: 1.2em;
+	color: #CC3333;
+}
+h4 {
+	font-size: 1.1em;
+	color: #CC8033;
+}
+h5, h6 {
+	font-size: 1em;
+	font-weight: bold;
+	color: #333333;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0.6em 0 .25em 0;
+}
+/* ============================== TYPOGRAPHY  ============================== */
+/* =============== CONTENT LAYOUT =============== */
+.clearafter:after {
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+/* =============== CONTENT PARAGRAPH=============== */
+.text-border {
+	border: 1px solid #e5e5e5;
+	padding: 3px;
+}
+.text-highlight {
+	padding: .2em;
+	background: #FFFFAA;
+}
+.text-dropcap:first-letter {
+	color: #404040;
+	font: 4em/.8em "Times New Roman", Times, serif;
+	float: left;
+}
+/* =============== IMAGES =============== */
+img.image-left {
+	float: left;
+	margin: 0.5em 1em 0.5em 0;
+}
+img.image-right {
+	float: right;
+	margin: 0.5em 0 0.5em 1em;
+}
+img {
+	border: none;
+}
+img.image-border {
+	border: 1px solid #e5e5e5;
+	padding: 3px;
+}
+img.image-margin {
+	margin: .5em;
+}
+/* =============== LIST STYLES =============== */
+ul li {
+	margin: 0.3em 0 0.3em 1.6em;
+	padding: 0;
+}
+ol li {
+	margin: 0.3em 0 0.3em 2em;
+	padding: 0;
+}
+ul.list-arrow-red,
+ul.list-arrow-green,
+ul.list-arrow-blue {
+	list-style: none;
+}
+/* ========== ARROW LIST ========== */
+ul.list-arrow-red li {
+	margin-left: 0.6em;
+	padding-left: 14px;
+	background: url(../images/icons-arrow-8.png) no-repeat left 5px;
+}
+ul.list-arrow-blue li {
+	margin-left: 0.6em;
+	padding-left: 14px;
+	background: url(../images/icons-arrow-8.png) no-repeat left -102px;
+}
+ul.list-arrow-green li {
+	margin-left: 0.6em;
+	padding-left: 14px;
+	background: url(../images/icons-arrow-8.png) no-repeat left -209px;
+}
+/* ========== HORIZONTAL LIST ========== */
+ul.list-horizontal {
+	margin: 0;
+	list-style: none;
+}
+ul.list-horizontal li {
+	display: inline;
+	margin: 0 .5em;
+}
+/* ========== CLEAN LIST ========== */
+ul.list-nobullet {
+	margin: 0;
+	list-style: none;
+}
+ul.list-nobullet li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/* =============== LINKS =============== */
+a {
+	text-decoration: none;
+	outline: none;
+	color: #009aca;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+a img {
+	border: none;
+}
+/* ============================== MAIN LAYOUT ============================== */
+#jsn-master {
+	background: repeat-x top left;
+}
+#jsn-page {
+	background-color: #fff;
+	color: #000;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	width: 960px;
+	margin: 0 auto;
+}
+#jsn-pstickleft {
+	position: fixed;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+#jsn-pstickright {
+	position: fixed;
+	right: 0;
+	top: 0;
+	visibility: hidden;
+}
+/* ============================== HEADER COMPONENTS ============================== */
+#jsn-header {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+#jsn-logo {
+	line-height: 0;
+}
+#jsn-logo h1 {
+	display: none;
+}
+#jsn-pinset {
+	position: absolute;
+	top: 28px;
+	right: 20px;
+}
+#jsn-pinset form {
+	margin: 0;
+}
+#jsn-pinset div.jsn-modulecontainer {
+	float: right;
+}
+#jsn-pinset div.moduletable {
+	float: left;
+	margin-right: 10px;
+}
+/* ============================== MAIN MENU ============================== */
+#jsn-menu {
+	background-color: #282828;
+	color: #f2f2f2;
+	width: 100%;
+	position: relative;
+	z-index: 89;
+}
+#jsn-pmainmenu {
+	float: left;
+	margin: 3px 0 0 1px;
+}
+#jsn-ptoolbar {
+	float: right;
+}
+#jsn-ptoolbar div.moduletable {
+	float: right;
+	margin-left: 10px;
+}
+/* ============================== CONTENT ============================== */
+#jsn-featured {
+	color: #D4D4D4;
+	border-bottom: 5px solid #404040;
+	background: #595959 url(../images/promo-bg.jpg) repeat-x left top;
+}
+#jsn-featured div.module .jsn-moduletitle,
+#jsn-featured div.module-plain .jsn-moduletitle,
+#jsn-featured div.box-grey .jsn-moduletitle {
+	color: #fff;
+}
+#jsn-content {
+	background-color: #ffffff;
+}
+#jsn-maincontent_inner,
+#jsn-maincontent_inner2 {
+	width: 100%;
+}
+#jsn-mainbody {
+	padding: 1.5em;
+}
+#jsn-pbreadcrumbs {
+	background: url(../images/dot.png) repeat-x bottom left;
+	padding: 0.6em 1em;
+}
+#jsn-banner {
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+#jsn-usermodules1 {
+	padding: 1em 0;
+	background: url(../images/dot.png) repeat-x left bottom;
+}
+#jsn-usermodules1_inner_grid2 {
+	background: transparent url(../images/dot.png) repeat-y 50% top;
+}
+#jsn-puser1_grid2 {
+	float: left;
+	width: 49.95%;
+}
+#jsn-puser2_grid2 {
+	float: right;
+	width: 49.95%;
+}
+#jsn-puser1,
+#jsn-puser2 {
+	padding: 0 1em;
+}
+#jsn-pleft,
+#jsn-pright,
+#jsn-pinnerleft_inner,
+#jsn-pinnerright_inner {
+	padding: 1em;
+}
+#jsn-pright div.module,
+#jsn-pright div.module-plain,
+#jsn-pright div.module-box,
+#jsn-pleft div.module,
+#jsn-pleft div.module-plain,
+#jsn-pleft div.module-box {
+	margin-bottom: 1em;
+}
+/* ============================== FOOTER COMPONENTS ============================== */
+#jsn-footer {
+	background-color: #fff;
+	padding: 1.2em 1em;
+	font-size: 0.9em;
+	color: #595959;
+	border-top: 1px solid #b3b3b3;
+}
+#jsn-footer a {
+	color: #000;
+}
+#jsn-pfooter a {
+	text-decoration: underline;
+}
+#jsn-pfooter a:hover {
+	text-decoration: none;
+}
+#jsn-pbottom {
+	text-align: right;
+}
+#jsn-pfooter_grid2 {
+	width: 49.5%;
+	float: left;
+}
+#jsn-pbottom_grid2 {
+	width: 49.5%;
+	float: right;
+}
+#jsn-copyright {
+	text-align: center;
+	padding: 5px 0;
+}
+#jsn-copyright a {
+	font-size: 0.8em;
+	color: #366999;
+}
+/* ============================== MODULE STYLES ============================== */
+table.poll td,
+table.poll-box td,
+table.poll-plain td {
+	text-align: left;
+}
+/* =============== MODULE BOX STYLES =============== */
+h3.jsn-moduletitle {
+	margin: 0;
+	color: #000;
+	font-size: 1.1em;
+}
+h3.jsn-moduletitle span.jsn-moduleicon {
+	display: block;
+}
+div.jsn-middle div.jsn-modulecontent {
+	padding-top: 3px;
+}
+/* ========== Rich Menu Item ========== */
+.jsn-menutitle,
+.jsn-menudescription {
+	display: block;
+}
+.jsn-menudescription {
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #B8B8B8;
+	background: none !Important;
+}
+/* =============== MODULE BACKGROUND STYLES =============== */
+div.module-box {
+	padding: 0;
+}
+div.module-box div.jsn-top {
+	height: 15px;
+	margin-left: 15px;
+	position: relative;
+}
+div.module-box div.jsn-top_inner {
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	left: -15px;
+}
+div.module-box div.jsn-middle {
+	padding-right: 15px;
+	margin-left: 15px;
+}
+div.module-box div.jsn-middle_inner {
+	padding-left: 15px;
+	margin-left: -15px;
+	padding-bottom: 1px;
+	width: 100%;
+}
+div.module-box div.jsn-bottom {
+	height: 22px;
+	margin-left: 15px;
+	position: relative;
+}
+div.module-box div.jsn-bottom_inner {
+	height: 22px;
+	width: 15px;
+	position: absolute;
+	left: -15px;
+}
+div.box-blue,
+div.box-green,
+div.box-yellow {
+	color: #000;
+}
+/* =============== MODULE BOX BLUE =============== */
+div.box-blue div.jsn-top {
+	background: url(../images/module-box/module-box-blue.png) right top no-repeat;
+}
+div.box-blue div.jsn-top_inner {
+	background: url(../images/module-box/module-box-blue.png) left top no-repeat;
+}
+div.box-blue div.jsn-middle {
+	background: url(../images/module-box/module-box-blue_m.png) right top repeat-y;
+}
+div.box-blue div.jsn-middle_inner {
+	background: url(../images/module-box/module-box-blue_m.png) left top repeat-y;
+}
+div.box-blue div.jsn-bottom {
+	background: url(../images/module-box/module-box-blue.png) right bottom no-repeat;
+}
+div.box-blue div.jsn-bottom_inner {
+	background: url(../images/module-box/module-box-blue.png) left bottom no-repeat;
+}
+/* =============== MODULE BOX GREEN =============== */
+div.box-green div.jsn-top {
+	background: url(../images/module-box/module-box-green.png) right top no-repeat;
+}
+div.box-green div.jsn-top_inner {
+	background: url(../images/module-box/module-box-green.png) left top no-repeat;
+}
+div.box-green div.jsn-middle {
+	background: url(../images/module-box/module-box-green_m.png) right top repeat-y;
+}
+div.box-green div.jsn-middle_inner {
+	background: url(../images/module-box/module-box-green_m.png) left top repeat-y;
+}
+div.box-green div.jsn-bottom {
+	background: url(../images/module-box/module-box-green.png) right bottom no-repeat;
+}
+div.box-green div.jsn-bottom_inner {
+	background: url(../images/module-box/module-box-green.png) left bottom no-repeat;
+}
+/* =============== MODULE BOX YELLOW =============== */
+div.box-yellow div.jsn-top {
+	background: url(../images/module-box/module-box-yellow.png) right top no-repeat;
+}
+div.box-yellow div.jsn-top_inner {
+	background: url(../images/module-box/module-box-yellow.png) left top no-repeat;
+}
+div.box-yellow div.jsn-middle {
+	background: url(../images/module-box/module-box-yellow_m.png) right top repeat-y;
+}
+div.box-yellow div.jsn-middle_inner {
+	background: url(../images/module-box/module-box-yellow_m.png) left top repeat-y;
+}
+div.box-yellow div.jsn-bottom {
+	background: url(../images/module-box/module-box-yellow.png) right bottom no-repeat;
+}
+div.box-yellow div.jsn-bottom_inner {
+	background: url(../images/module-box/module-box-yellow.png) left bottom no-repeat;
+}
+/* =============== MODULE BOX GREY =============== */
+div.box-grey div.jsn-top {
+	background: url(../images/module-box/module-box-grey.png) right top no-repeat;
+}
+div.box-grey div.jsn-top_inner {
+	background: url(../images/module-box/module-box-grey.png) left top no-repeat;
+}
+div.box-grey div.jsn-middle {
+	background: url(../images/module-box/module-box-grey_m.png) right top repeat-y;
+}
+div.box-grey div.jsn-middle_inner {
+	background: url(../images/module-box/module-box-grey_m.png) left top repeat-y;
+}
+div.box-grey div.jsn-bottom {
+	background: url(../images/module-box/module-box-grey.png) right bottom no-repeat;
+}
+div.box-grey div.jsn-bottom_inner {
+	background: url(../images/module-box/module-box-grey.png) left bottom no-repeat;
+}
+/* =============== CUSTOM MODULE STYLES =============== */
+div.box-grey div.jsn-middle {
+	color: #d4d4d4;
+}
+div.box-grey h3.jsn-moduletitle {
+	color: #FFF;
+}
+/* ======================================== DROP-DOWN MAIN MENU ======================================== */
+/* ==================== MAIN LEVEL ==================== */
+ul#base-mainmenu {
+	margin: 0;
+	padding: 0;
+}
+ul#base-mainmenu li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	border-right: 1px solid #404040;
+}
+ul#base-mainmenu li a {
+	display: block;
+	color: #cfdbe5;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border-right: 1px solid #000;
+	cursor: pointer;
+	padding: 4px 1em 8px 1em;
+}
+ul#base-mainmenu li.sfhover a,
+ul#base-mainmenu li.active a {
+	background-color: #404040;
+	color: #fff;
+}
+ul#base-mainmenu li.sfhover ul a,
+ul#base-mainmenu li.active ul a {
+	background-color: transparent;
+	color: #D9D9D9;
+}
+ul#base-mainmenu li a span {
+	display: block;
+	background: url(../images/icons-uni-16.png) no-repeat left 1000px;
+}
+ul#base-mainmenu li a span.separator,
+ul#base-mainmenu li a span.jsn-menutitle,
+ul#base-mainmenu li a span.jsn-menudescription {
+	padding: 0;
+	background: none;
+}
+/* ==================== 1st SUB-LEVEL ==================== */
+ul#base-mainmenu ul {
+	position: absolute;
+	width: 185px;
+	left: -999em;
+	margin: 0;
+	padding: 0;
+}
+ul#base-mainmenu ul li {
+	width: 185px;
+	border: none;
+	position: relative;
+}
+ul#base-mainmenu ul li a {
+	display: block;
+	border-left: 1px solid #162c40;
+	border-right: none;
+	padding: 4px 0 4px 10px;
+	font-size: 0.9em;
+	font-weight: normal;
+	background: none;
+}
+ul#base-mainmenu ul ul {
+	margin-left: 185px;
+	top: 0;
+}
+/* ==================== PARENT ITEMS ==================== */
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent a span,
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent a span,
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent li.parent a span {
+	background: url(../images/icons-arrow-8.png) no-repeat right -423px;
+	padding-right: 16px;
+}
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent a span.separator,
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent a span.separator,
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent li.parent a span.separator,
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent a span.jsn-menutitle,
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent a span.jsn-menutitle,
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent li.parent a span.jsn-menutitle,
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent a span.jsn-menudescription,
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent a span.jsn-menudescription,
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent li.parent a span.jsn-menudescription {
+	background: none;
+	padding-right: 0;
+}
+/* ---------- PARENT ITEMS - CLEAR ---------- */
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent ul a span,
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent ul a span,
+div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent li.parent ul a span {
+	background: none;
+	padding-right: 10px;
+}
+/* ==================== HOVER & ACTIVE ITEMS ==================== */
+ul#base-mainmenu li.active a,
+ul#base-mainmenu li.active li.active a,
+ul#base-mainmenu li.active li.active li.active a {
+	font-weight: bold;
+	color: #fff;
+}
+/* ---------- ACTIVE ITEMS - CLEAR ---------- */
+ul#base-mainmenu li.active ul a,
+ul#base-mainmenu li.active li.active ul a,
+ul#base-mainmenu li.active li.active li.active ul a {
+	color: #D9D9D9;
+	font-weight: normal;
+}
+/* ---------- CURRENT ITEMS ---------- */
+ul#base-mainmenu li.active ul a.current,
+ul#base-mainmenu li.active li.active ul a.current,
+ul#base-mainmenu li.active li.active li.active ul a.current {
+	color: #fff;
+	font-weight: bold;
+}
+/* ---------- HOVER STATE ---------- */
+ul#base-mainmenu li a:hover {
+	text-decoration: none;
+	color: #fff !important;
+}
+/* ---------- HOVER STATE - LINK COLOR ---------- */
+ul#base-mainmenu ul li.sfhover a,
+ul#base-mainmenu ul li.sfhover li.sfhover a,
+ul#base-mainmenu ul li.sfhover li.sfhover li.sfhover a {
+	color: #fff;
+}
+/* ---------- HOVER STATE - CLEAR LINK COLOR ---------- */
+ul#base-mainmenu ul li.sfhover ul a,
+ul#base-mainmenu ul li.sfhover li.sfhover ul a,
+ul#base-mainmenu ul li.sfhover li.sfhover li.sfhover ul a {
+	color: #D9D9D9;
+}
+/* ========== ROLLOVER ACTION ========== */
+ul#base-mainmenu li.sfhover ul,
+ul#base-mainmenu li.sfhover ul li.sfhover ul,
+ul#base-mainmenu li.sfhover ul li.sfhover ul li.sfhover ul {
+	left: auto;
+}
+ul#base-mainmenu li.sfhover ul ul,
+ul#base-mainmenu li.sfhover ul li.sfhover ul ul,
+ul#base-mainmenu li.sfhover ul li.sfhover ul li.sfhover ul ul {
+	left: -999em;
+}
+ul#base-mainmenu,
+ul#base-mainmenu li li {
+	clear: both;
+}
+/* ======================================== TREE MENU ======================================== */
+/* ==================== MAIN LEVEL ==================== */
+ul.menu-treemenu {
+	border-top: 1px dotted #b3b3b3;
+	width: 100%;
+}
+ul.menu-treemenu,
+ul.menu-treemenu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul.menu-treemenu li {
+	padding: 0;
+	margin: 0;
+}
+ul.menu-treemenu li a {
+	display: block;
+	border-bottom: 1px dotted #b3b3b3;
+	color: #404040;
+	text-decoration: none;
+	background: url(../images/icons-dot-8.png) no-repeat;
+	padding: 3px 0 3px 17px;
+	cursor: pointer;
+}
+/* ==================== DARK BACKGROUND STYLE ==================== */
+div.box-grey ul.menu-treemenu li a {
+	color: #d9d9d9;
+}
+/* ==================== SUB LEVEL ==================== */
+ul.menu-treemenu ul li {
+	margin-left: 1em;
+}
+ul.menu-treemenu ul li a {
+	border-bottom: none;
+	background-position: 0 -200px;
+}
+ul.menu-treemenu li a:hover {
+	color: #000000;
+	text-decoration: none;
+	background-color: #EFEFEF;
+}
+/* ========== CURRENT & ACTIVE ITEM ========== */
+ul.menu-treemenu li a.current {
+	font-weight: bold;
+	background: url(../images/icons-arrow-8.png) no-repeat left 8px;
+}
+ul.menu-treemenu li a.current span {
+	color: #000;
+}
+div.box-grey ul.menu-treemenu li a.current span {
+	color: #FFF;
+}
+/* ---------- BOX STYLES ---------- */
+div.box-grey ul.menu-treemenu li a:hover,
+div.box-grey ul.menu-treemenu li.active a.current {
+	background-color: #404040;
+	color: #FFF;
+}
+div.box-yellow ul.menu-treemenu li a:hover,
+div.box-yellow ul.menu-treemenu li.active a.current {
+	background-color: #f5f5d4;
+}
+div.box-green ul.menu-treemenu li a:hover,
+div.box-green ul.menu-treemenu li.active a.current {
+	background-color: #e2f5d4;
+}
+div.box-blue ul.menu-treemenu li a:hover,
+div.box-blue ul.menu-treemenu li.active a.current {
+	background-color: #d4eaf5;
+}
+/* =============== BOTTOM DIV MENU =============== */
+ul.menu-divmenu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.menu-divmenu li {
+	display: inline;
+	margin: 0;
+	padding: 0 0.8em;
+	border-right: 1px solid #B3B3B3;
+}
+ul.menu-divmenu li a {
+	display: inline-block;
+}
+ul.menu-divmenu li.last {
+	border-right: none;
+}
+ul.menu-divmenu li a:hover {
+	text-decoration: underline;
+}
+/* =============== MODULE SEARCH =============== */
+#jsn-pinset div.search input#mod_search_searchword {
+	background: url(../images/icons-base-16.png) no-repeat 5px -254px;
+	padding: 2px 0 2px 25px;
+	border: 1px solid #284D73;
+}

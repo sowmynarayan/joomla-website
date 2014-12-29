@@ -1,0 +1,57 @@
+﻿/* ==============================
+   1. Schriftgröße definieren  */   
+
+
+
+/* ==============================
+   2. Zentrierung von #wrapper */
+
+body { 
+	text-align:center;
+}
+#wrapper {
+	text-align:left;
+	width: 998px;
+}
+#container { 
+	margin:0;
+	padding: 0;
+}
+#user_modules1 {
+	width: auto;
+}
+#top {
+	width: auto;
+}
+#content {
+	width: auto;
+}
+#content_outleft {
+	margin: 0 0 0 160px;
+}
+#content_outmiddle {
+	margin: 0 160px;
+}
+#content_outright {
+	margin: 0 160px 0 0;
+}
+#left_top, #right_top, #left_bottom, #right_bottom {
+	width : 156px;
+}
+
+table.moduletable th, div.moduletable h3, .moduletable_text h3, .moduletable_menu h3 {
+	width: auto;
+	font-size: 11px;
+}
+li {
+	background-image : none;
+}
+li:hover {
+	background-image : none;
+}
+.blog_more ul li {
+	background-image:none;
+}
+table.poll {
+	width : auto;
+}

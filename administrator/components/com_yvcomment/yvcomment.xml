@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE project>
+<!-- $Id: yvcomment.xml 2 2009-08-30 15:10:43Z yvolk $ -->
+<install type="component" version="1.5.0">
+	<!-- Extension information //-->
+	<name>yvComment</name>
+	<creationDate>2009-08-30</creationDate>
+	<author>Yuri Volkov</author>
+	<authorEmail>yvolksoft@yurivolkov.com</authorEmail>
+	<authorUrl>http://yurivolkov.com/Joomla/yvComment/index_en.html</authorUrl>
+	<copyright>(c) 2007-2009 yvolk (Yuri Volkov), http://yurivolkov.com.
+		All rights reserved.</copyright>
+	<license>GPL</license>
+	<version>1.24.0</version>
+	<description>
+		First native Commenting solution for Joomla! 1.5.
+		See
+		[url=http://yurivolkov.com/Joomla/yvComment/index_en.html]yvComment's
+		Homepage[/url] for more information.
+	</description>
+
+	<!-- Custom install file //-->
+	<installfile>install.yvcomment.php</installfile>
+	<uninstallfile>uninstall.yvcomment.php</uninstallfile>
+
+	<!-- Install SQL files //-->
+	<!-- The element is required by dtd //-->
+	<install>
+		<sql></sql>
+	</install>
+	<!--
+		The element is required by dtd, but we won't drop Comments tables...
+		//
+	-->
+	<uninstall>
+		<sql></sql>
+	</uninstall>
+
+	<!-- Site files //-->
+	<files folder="components/com_yvcomment">
+		<!-- General //-->
+		<filename>yvcomment.php</filename>
+		<filename>controller.php</filename>
+		<filename>helpers.php</filename>
+		<filename>index.html</filename>
+
+		<!-- Sub folders //-->
+		<folder>assets</folder>
+		<folder>elements</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+	<files>
+		<filename>COPYRIGHT.txt</filename>
+		<filename>CHANGELOG.txt</filename>
+	</files>
+
+	<administration>
+		<!-- Administrator files //-->
+		<menu>yvComment</menu>
+		<submenu>
+			<menu view="listofcomments">List of Comments</menu>
+		</submenu>
+
+		<files folder="administrator/components/com_yvcomment">
+			<filename>install.yvcomment.php</filename>
+			<filename>uninstall.yvcomment.php</filename>
+
+			<!-- Currently there is nothing real in these files //-->
+			<filename>yvcomment.php</filename>
+			<filename>config.xml</filename>
+		</files>
+
+		<!-- Language files //-->
+		<languages>
+			<language tag="en-GB">en-GB/en-GB.com_yvcomment.ini</language>
+		</languages>
+	</administration>
+</install>

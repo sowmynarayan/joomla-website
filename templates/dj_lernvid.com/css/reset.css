@@ -1,0 +1,78 @@
+﻿
+@media all { 
+
+/* Reset */
+* {padding: 0; margin: 0; border: 0; }
+
+
+/* margin-bottom für Überschriften, Absätze, Listen etc. */
+h1, h2, h3, h4, h5, h6, 
+p, blockquote, address, pre, 
+ul, ol, dl, table {
+   margin-bottom: 1em;
+}
+
+/* Zitate einrücken */ 
+blockquote { margin: 1em 2em; } 
+
+/* Alle Listen etwas einrücken */
+ul, ol, dl { margin-left: 1em; }
+
+/* Listenelemente etwas mehr einrücken */
+li { margin-left: 1em; } 
+
+/* Definitionen in Definitionslisten noch mehr einrücken */
+dd { margin-left: 2em; }
+
+/* Verschachtelte Listen ohne Außenabstand oben/unten */
+ul ul, ul ol, ul dl,
+ol ul, ol ol, ol dl,
+dl ul, dl ol, dl dl {
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+/* Aufzählungszeichen für Listenkisten */
+
+/* Ebene 1 - ul: square (ausgefülltes Rechteck); ol: Dezimalzahlen  */
+ul { list-style-type: square; }
+ol { list-style-type: decimal; }
+
+/* Ebene 2 - ul: disc (ausgefüllter Kreis); ol: kleine Buchstaben */
+ul ul { list-style-type: disc; }
+ol ol { list-style-type: lower-alpha; }
+
+ul ol { list-style-type: decimal; }
+ol ul { list-style-type: square; }
+
+/* Auswahl in Auswahllisten (select) durch padding:0 schlecht lesbar */
+option { padding-left: 0.2em; padding-right: 0.3em; }
+
+/* Rahmen um fieldset und verlinkte Bilder entfernen */
+fieldset, a img { border: none; }
+
+/* Bildlaufleiste im Firefox immer zeigen */
+html { height: 101%; }
+
+body {
+   background-color: white;
+   color: black; 
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: small; 
+}
+
+/* Serifenschrift für Überschriften, inkl. h1 (alt-Text) */
+h1, h2, h3, h4, h5, h6 {
+   font-family: Georgia, "Times New Roman", serif;
+   font-weight: bold; 
+}
+/*  Überschriftengrößen auf Basis von small (13px) */
+h1 { font-size: 200%; }     /* ca. 26px */ 
+h2 { font-size: 184.62%; }  /* ca. 24px */ 
+h3 { font-size: 153.85%; }  /* ca. 20px */ 
+h4 { font-size: 138.46%; }  /* ca. 18px */ 
+h5 { font-size: 123.08% }   /* ca. 16px */ 
+h6 { font-size: 107.69%; }  /* ca. 14px */
+
+
+} /* Ende @media */

@@ -1,0 +1,429 @@
+/**
+* author    JoomlaShine.com http://www.joomlashine.com
+* copyright Copyright (C) 2008 - 2009 JoomlaShine.com. All rights reserved.
+* license   Copyrighted Commercial Software
+* This file may not be redistributed in whole or significant part.
+*/
+/* ============================== GENERAL OUTPUT  ============================== */
+div.button2-left {
+	margin: 17px 0 0 0;
+}
+/* =============== FORM =============== */
+.jsn-formbuttons {
+	text-align: center;
+	padding-top: .45em;
+}
+table.paramlist td {
+	padding: .3em;
+}
+table.paramlist td.paramlist_key {
+	width: 150px;
+}
+/* ============================== CORE COMPONENT OUTPUT  ============================== */
+/* ============================== COM_CONTENT ================================== */
+/* ========== ARTICLE TITLES CONTAINER ========== */
+.contentheading,
+.componentheading {
+	font-size: 1.4em;
+	margin-top: 0;
+	font-weight: normal;
+}
+/* ========== ARTICLE METADATA ========== */
+.jsn-article-metadata {
+	margin: 0.3em 0;
+}
+/* ========== ARTICLE TOOLBAR ========== */
+.jsn-article-toolbar {
+	margin-bottom: .6em;
+	background-color: #f4f4f4;
+	position: relative;
+	min-height: 28px;
+	width: 100%;
+}
+/* ========== ARTICLE INFO ========== */
+.jsn-article-info {
+	padding: 0.3em 0.6em;
+}
+.author,
+.createdate {
+	padding: 3px 0 3px 22px;
+	margin: 0;
+	color: #595959;
+	font-size: 0.9em;
+}
+body.jsn-direction-rtl .author,
+body.jsn-direction-rtl .createdate {
+	padding-right: 22px;
+	padding-left: 0;
+}
+.author {
+	background: url(../images/icons-base-16.png) no-repeat 0 -84px;
+}
+body.jsn-direction-rtl .author {
+	background-position: right -84px;
+}
+.createdate {
+	background: url(../images/icons-base-16.png) no-repeat 0 -1px;
+}
+body.jsn-direction-rtl .createdate {
+	background-position: right -1px;
+}
+.modifydate {
+	margin: 1em 0;
+	text-align: right;
+	width: 100%;
+	color: #999999;
+	font-style: italic;
+}
+body.jsn-direction-rtl .modifydate {
+	text-align: left;
+}
+/* ========== 3 BUTTON PDF, PRINT, EMAIL CONTAINER ========== */
+.jsn-article-tools {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: .5em;
+	list-style: none;
+}
+body.jsn-direction-rtl ul.jsn-article-tools {
+	left: 0;
+	right: auto;
+}
+.jsn-article-tools li {
+	display: inline;
+	margin: 0 5px;
+}
+body.jsn-direction-rtl ul.jsn-article-tools li {
+	margin: 0 5px;
+}
+/* ========== TABLE OF CONTENT ========== */
+table.contenttoc {
+	margin: 0 0 1em 1em;
+	border: 1px solid #D9D9D9;
+	background: #f2f2f2;
+	float: right;
+}
+table.contenttoc th {
+	padding: .4em;
+	background: url(../images/grey_dot.png) bottom repeat-x;
+	font-weight: bold;
+	text-align: center;
+}
+table.contenttoc td {
+	padding: .25em .6em;
+}
+/* ========== PAGE LINK IN TOC ========== */
+a.toclink:link,
+a.toclink:visited {
+	font-size: .9em;
+}
+/* ========== PAGE NUMBER SHOWING "PAGE 1 OF ..." UNDER TOC ========== */
+div.pagenavcounter {
+	color: #595959;
+	margin: .5em 0;
+	font-size: .9em;
+	font-weight: bold;
+}
+/* ========== PAGE NAVIGATION ========== */
+div.pagenavbar div {
+	color: #999999;
+	font-weight: bold;
+	font-size: .9em;
+}
+div.pagenavbar a:link,
+div.pagenavbar a:visited {
+	text-decoration: none;
+}
+div.pagenavbar a:hover {
+	text-decoration: underline;
+}
+/* =============== SECTION / CATEGORY BLOG LAYOUT =============== */
+/* ========== ARTICLES TITLE LINK ========== */
+a.contentpagetitle:link,
+a.contentpagetitle:visited {
+	text-decoration: none;
+	font-weight: normal;
+}
+a.contentpagetitle:hover {
+	text-decoration: underline;
+}
+/* ========== SEPARATOR BETWEEN ARTICLES ========== */
+span.article_separator {
+	display: block;
+	height: 1.5em;
+}
+/* ========== ARTICLE COLUMN CONTAINER ========== */
+.jsn-articlecols {
+	float: left;
+}
+.jsn-articlecols .jsn-article {
+	padding: 0 5px;
+}
+/* ========== COLUMN CONTAINER STARTING FROM THE SECOND ========== */
+/* ========== READ MORE ========== */
+a.readon {
+	padding: 3px 6px;
+	text-decoration: none;
+	color: #404040;
+	border: 1px solid #e5e5e5;
+	background: #F4F4F4;
+}
+a.readon:hover {
+	background-color: #e5e5e5;
+	text-decoration: none;
+}
+/* ========== "MORE..." PANEL HEADING TEXT ========== */
+div.blog_more {
+	background-color:#F4F4F4;
+	border: 1px solid #e5e5e5;
+	padding: 0.2em 1em;
+	margin: 0 0 1em 0;
+}
+/* ========== "MORE..." PANEL LINKS ========== */
+a.blogsection:link,
+a.blogsection:visited {
+	text-decoration: none;
+}
+a.blogsection:hover {
+	text-decoration: underline;
+}
+/* =============== PAGE PAGINATION =============== */
+.jsn-pagination {
+	list-style-type: none;
+}
+.jsn-pagination li {
+	display: inline;
+	margin: 0 5px;
+}
+.jsn-pagination,
+.jsn-pageinfo {
+	text-align: center;
+	margin: 0 0 0.6em;
+	font-size: 0.9em;
+}
+/* ========== BLOG PAGES NAV ========== */
+ul.jsn-pagination li,
+ul.jsn-pagination li a {
+	text-transform: uppercase;
+}
+/* ========== BLOG PAGES NAV LINK ========== */
+a.pagenav:link,
+a.pagenav:visited {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a.pagenav:hover {
+	text-decoration: underline;
+}
+/* =============== CATEGORY LIST LAYOUT =============== */
+/* ========== DESCRIPTION IN CONTENT TABLE AND COMPONENT PAGE ========== */
+.contentdescription {
+	padding: .5em 0;
+}
+/* ========== TABLE IN CATEGORY TABLE PAGE ========== */
+.sectiontableheader {
+	padding: 5px 8px;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #FFFFFF;
+}
+.sectiontableheader a:link,
+.sectiontableheader a:visited {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.sectiontableheader a:hover {
+	text-decoration: none;
+}
+/* ========== TABLE FILTER ========== */
+.jsn-infofilter {
+	padding: 0.6em 0;
+	text-align: right;
+}
+.jsn-titlefilter {
+	float: left;
+}
+.archived-article-list .jsn-infofilter {
+	text-align: left;
+}
+/* ========== TABLE'S ROW 1 ========== */
+tr.sectiontableentry1 td {
+	padding: 5px 8px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+/* ========== TABLE'S ROW 2 ========== */
+tr.sectiontableentry2 td {
+	padding: 5px 8px;
+}
+/* =============== SECTION LAYOUT =============== */
+/* ========== LINKS IN SECTION TABLE PAGE ========== */
+a.category:link,
+a.category:visited {
+	font-weight: bold;
+}
+/* ============================== COM_CONTACT ================================== */
+/* =============== STANDARD CONTACT LAYOUT =============== */
+/* ========== CONTACTS DROP-DOWN MENU ========== */
+div.standard-contact form#selectForm {
+	text-align: center;
+}
+/* ========== CONTACT FORM INPUT BOXES ========== */
+input#contact_name,
+input#contact_email,
+input#contact_subject,
+#contact_text {
+	display: block;
+}
+/* ============================== COM_POOL ================================== */
+/* ========== POOL RESULT FOR EACH ANSWER ========== */
+table.pollstableborder tr.sectiontableentry0 td {
+	background-color: #f2f2f2;
+	padding: .5em .8em;
+}
+table.pollstableborder tr.sectiontableentry1 td {
+	background: none;
+	padding: .5em .8em;
+}
+/* ============================== COM_SEARCH ================================== */
+/* ========== CHILD ELEMENTS ========== */
+.jsn-search-keyword,
+.jsn-search-option,
+.jsn-search-ordering,
+.jsn-search-category,
+.searchintro {
+	margin: 1em 0;
+}
+/* ========== KEYWORD GIGHLIGHT IN SEARCH RESULT ========== */
+span.highlight {
+	padding: .2em;
+	background: #FFFFAA;
+}
+/* ============================== COM_USER ================================== */
+/* =============== USER FORM LAYOUT =============== */
+/* ========== PARAMETER TITLE ========== */
+div.user-form table.paramlist td {
+}
+/* ========== PARAMETER TITLE TEXT ========== */
+div.user-form table.paramlist td.paramlist_key span.editlinktip {
+	width: 123px;
+	display: block;
+}
+table .paramlist_key {
+	width: 130px;
+}
+/* ========== POP-UP / PRINT WINDOWS ========== */
+body.contentpane {
+	padding: 1em;
+	color: #000000;
+	background: #FFFFFF;
+}
+/* ========== SYSTEM STANDARD MESSAGES ========== */
+#system-message {
+	margin-bottom: 20px;
+}
+#system-message ul li {
+	margin-left: 0;
+}
+#system-message dd.message ul {
+	background: #c3d2e5 url(../../system/images/notice-info.png) 4px center no-repeat;
+}
+/* ========== SYSTEM ERROR MESSAGES ========== */
+#system-message dd.error ul {
+	border-top: 3px solid #de7a7b;
+	border-bottom: 3px solid #de7a7b;
+	margin: 0px;
+	padding-left: 40px;
+	color: #cc0000;
+	background: #e6c0c0 url(../../system/images/notice-alert.png) 4px center no-repeat;
+	text-indent: 0px;
+}
+/* ========== TOOLTIPS ========== */
+.tool-tip {
+	float: left;
+	background: #ffc;
+	border: 1px solid #D4D5AA;
+	padding: 5px;
+	max-width: 200px;
+}
+.tool-title {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: url(../../system/images/selector-arrow.png) no-repeat;
+}
+.tool-text {
+	font-size: 100%;
+	margin: 0;
+}
+/* ========== SYSTEM NOTICE MESSAGES ========== */
+#system-message dd.notice ul {
+	border-top: 3px solid #f0dc7e;
+	border-bottom: 3px solid #f0dc7e;
+	color: #cc0000;
+	background: #efe7b8 url(../../system/images/notice-note.png) 4px center no-repeat;
+}
+/* ============================== CORE MODULE OUTPUT  ============================== */
+/* ============================== MOD_BREADCRUMB ================================== */
+span.pathway,
+span.breadcrumbs {
+	font-size: 0.9em;
+	display: block;
+}
+span.pathway a,
+span.pathway span {
+	color: #404040;
+	background: url(../images/icons-arrow-8.png) no-repeat right -317px;
+	padding-right: 18px;
+	text-decoration: none;
+}
+body.jsn-direction-rtl span.pathway a,
+body.jsn-direction-rtl span.pathway span {
+	background: url(../images/icons-arrow-rtl-8.png) no-repeat left -316px;
+	padding-right: 0;
+	padding-left: 18px;
+	float: right;
+}
+body.jsn-direction-rtl span.pathway span.current {
+	background: none;
+}
+span.pathway a:hover {
+	text-decoration: underline;
+}
+span.pathway span.current {
+	font-weight: bold;
+	color: #000000;
+	padding: 0;
+	background: none;
+}
+/* ============================== MOD_LOGIN ================================== */
+div.button-wrapper {
+	text-align: center;
+	margin: 0.5em 0 0;
+}
+form#form-login fieldset.input {
+	border: none;
+	padding: 0;
+}
+p#form-login-username,
+p#form-login-password,
+p#form-login-remember {
+	margin: 0 0 6px 0;
+}
+/* ============================== MOD_POOL ================================== */
+/* ========== POLL'S TABLE ========== */
+table.pollstableborder {
+	margin: .5em 0;
+	text-align: left;
+}
+table.pollstableborder td {
+	text-align: left;
+	font-size: .9em;
+	padding: 3px 2px;
+	border: none;
+}

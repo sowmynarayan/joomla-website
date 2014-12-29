@@ -1,0 +1,295 @@
+/**
+*  $Id: style003.css 2 2009-08-30 15:10:43Z yvolk $
+*  yvComment solution
+*  Style: "Gradient"
+*/
+
+div.yvComment {
+	border-width: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	width: 100%;
+	/* border: 1px solid #66CDAA; */
+}
+
+div.yvComment div.Comments {
+/*	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC; */	
+  clear: both;
+	margin: 0px 0px 0px 0px;
+	padding: 1px 1px 1px 1px;
+	text-align: left;
+	width: 100%;
+}
+
+div.yvComment div.CommentClr {
+  height: 0px;
+  clear: both;
+}
+
+div.yvComment .NumCommentsAlone {
+/*	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC; */ 	
+	float: right;
+	margin: 0 2px 2px 0;
+}
+
+div.yvComment .NumComments {
+	float: left;
+	width: 100%;
+}
+
+div.yvComment .CommentMessage {
+	border: 2px solid #FF4500;
+	margin: 1px;
+	padding: 3px 2px 3px 22px;
+	background-image: url(../../../images/M_images/con_info.png);
+	background-repeat: no-repeat;
+	background-position: 6px;
+}
+
+div.yvComment .Comment {
+/*	
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	background-color: #B5C4DF;
+*/	
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-image: url(style003/bg001.png);
+	margin: 1px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+}
+
+div.yvComment .Comment_even {
+/*	
+	border-bottom: 1px solid #D0DADB;
+	border-left: 1px solid #D0DADB;
+	border-right: 1px solid #D0DADB;
+	border-top: 1px solid #D0DADB;
+*/	
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-image: url(style003/bg001.png);
+	margin: 1px 0px 0px 0px; 
+	padding: 1px 1px 1px 1px;
+}
+
+div.yvComment .CommentForm {
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-image: url(style003/bg001.png);
+	margin: 1px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+}
+
+div.yvComment div.Comment .CommentHeader {
+	padding: 1px 1px 1px 1px;
+	height: 100%;
+}
+
+div.yvComment div.Comment_even .CommentHeader {
+	padding: 1px 1px 1px 1px;
+	height: 100%;
+}
+
+div.yvComment .Comment_unpublished {
+	background-color: #E8EDF1;
+	border-bottom: 4px solid #C4D3DF;
+	border-top: 4px solid #C4D3DF;
+	margin-top: 2px; 
+	width: 100%;
+}
+
+div.yvComment .Comment_unpublished_even {
+	background-color: #E8EDF1;
+	border-bottom: 4px solid #C4D3DF;
+	border-top: 4px solid #C4D3DF;
+	margin-top: 2px; 
+	width: 100%;
+}
+
+div.yvComment div.Comment_unpublished .CommentHeader {
+	background-color: #E8EDF1;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 1px;
+}
+
+div.yvComment div.Comment_unpublished_even .CommentHeader {
+	background-color: #E8EDF1;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 1px;
+}
+
+div.yvComment .CommentTitle {
+	float: left;
+	font-weight: bolder;
+}
+
+div.yvComment a.CommentTitle {
+	text-decoration: none;
+	font-weight: bolder;
+	color: Black;	
+}
+
+div.yvComment .CommentControlBox {
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	border: none;
+}
+
+div.yvComment .CommentControlBox td {
+  vertical-align: top;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+div.yvComment .CommentControlBox input {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+div.yvComment .CommentDateAndAuthor {
+	float: right;
+	text-align: right;
+	width: 45%;
+}
+
+div.yvComment div.CommentDate {
+	text-align: right;
+	float: right;
+	width: 100%;
+	padding-right: 3px;
+}
+
+div.yvComment .CommentAuthor {
+	float: right;
+	text-align: right;
+	width: 100%;
+	padding-right: 3px;
+}
+
+div.yvComment .CommentAuthorOpenID {
+   background: url(openid-bg.png) no-repeat;
+   background-position: 0% 0%;
+   padding-left: 18px;
+}
+
+div.yvComment .CommentAuthorAlias {
+	font-style: italic;
+}
+
+div.yvComment .CommentAuthorAlias:before {
+	content: "(";
+}
+
+div.yvComment .CommentAuthorAlias:after {
+	content: ")";
+}
+
+div.yvComment .CommentNum {
+	font-weight: bolder;
+}
+
+div.yvComment .CommentNum:after {
+	content: ". ";
+}
+
+div.yvComment div.Comment .CommentFulltext {
+	/*
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	*/
+	border-top: 1px solid #EEEEEE;
+	clear: both;
+/*	padding: 5px;*/
+	text-align: left;
+}
+
+div.yvComment div.Comment_even .CommentFulltext {
+/*	background-color: #F9FCFD;
+	border-top: 1px solid #EEF5F8;
+*/	
+	border-top: 1px solid #EEEEEE;
+	clear: both;
+/*	padding: 5px;*/
+	text-align: left;
+}
+
+div.yvComment .CommentParentArticle {
+	margin-left: 20px;
+	padding: 2px;
+	background-color: #E8F2FE;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	text-align: left;
+	float: left;
+}
+
+div.yvComment .CommentNumChildrenAlone {
+	margin: 0 2px 2px 0;
+	width: auto;
+	float: right;
+}
+
+div.yvComment .CommentForm {
+	width: 100%;
+	float: left;
+}
+
+div.yvComment .CommentForm h3 {
+	margin-top: 1em; 
+	margin-bottom: 0.5em;
+}
+
+div.yvComment .CommentForm td.CommentLeftColumn {
+	text-align: right;
+	width: 20%;
+}
+ 
+div.yvComment .CommentForm input[type="submit"] {
+	margin-top: 1em; 
+}
+
+div.yvComment div.CommentOwnersReply {
+	margin: 1px 0px 0px 20px; 
+	padding: 1px 1px 1px 1px;
+	border-left-color: #B5C4DF;
+	border-left-style: solid;
+	border-left-width: 4px;
+}
+
+div.yvComment div.CommentReply {
+	margin: 1px 0px 0px 20px; 
+	padding: 1px 1px 1px 1px;
+	border-left-color: #75849F;
+	border-left-style: solid;
+	border-left-width: 4px;
+}
+
+div.yvComment div.CommentPoweredBy {
+	float: right;
+	font-size: 60%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 3px 0px 0px;
+}
+
+/* Begin For compatibility with beez template */
+.leading div.yvComment {
+	display: inline;
+}
+
+#all div.yvComment .CommentControlBox form {
+	background: inherit;
+	padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* End For compatibility with beez template */

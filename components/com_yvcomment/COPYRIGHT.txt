@@ -1,0 +1,24 @@
+1. Metadata
+-----------
+File version:	$Id: COPYRIGHT.txt 2 2009-08-30 15:10:43Z yvolk $
+Description:	yvComment - Commenting solution, see http://yurivolkov.com/Joomla/yvComment/index_en.html
+Copyright:		Copyright (C) 2007-2009 yvolk (Yuri Volkov), http://yurivolkov.com. All rights reserved.
+License:		GNU General Public License version 2 or later; see LICENSE.txt
+
+2. Copyright
+-----------
+
+yvComment is copyrighted work of Yuri Volkov.
+Copyright (c) 2007-2009 yvolk (Yuri Volkov), http://yurivolkov.com. All rights reserved.
+
+yvComment includes or is derivative of works distributed under the following copyright notices:
+
+Language packs
+---
+Copyright:	Translators of Language packs (see Credits() in com_yvcomment/helpers.php)
+License:	GNU General Public License (GPL)
+
+Joomla!
+---
+Copyright:	2005 - 2008 Open Source Matters. All rights reserved.
+License:	GNU General Public License (GPL)

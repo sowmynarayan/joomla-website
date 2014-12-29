@@ -1,0 +1,248 @@
+/**
+* author    JoomlaShine.com http://www.joomlashine.com
+* copyright Copyright (C) 2006 - 2009 JoomlaShine.com. All rights reserved.
+* license   Copyrighted Commercial Software
+* This file may not be redistributed in whole or significant part.
+*/
+/* ============================== TYPOGRAPHY  ============================== */
+/* =============== GENERAL SETTINGS =============== */
+body.jsn-direction-rtl pre {
+	border-left: none;
+	border-right: 5px solid #404040;
+}
+body.jsn-direction-rtl blockquote {
+	padding-left: 0;
+	padding-right: 55px;
+	background: url(../images/icon-text-blockquote-rtl-24.png) no-repeat top right;
+}
+/* ============================== TYPOGRAPHY  ============================== */
+/* =============== CONTENT PARAGRAPH=============== */
+body.jsn-direction-rtl .text-dropcap:first-letter {
+	float: right;
+}
+/* =============== LIST STYLES =============== */
+body.jsn-direction-rtl ul li {
+	margin-right: 1.6em;
+	margin-left: 0;
+}
+body.jsn-direction-rtl ol li {
+	margin-right: 2em;
+	margin-left: 0;
+}
+/* ========== ARROW LIST ========== */
+body.jsn-direction-rtl ul.list-arrow-red li,
+body.jsn-direction-rtl ul.list-arrow-blue li,
+body.jsn-direction-rtl ul.list-arrow-green li {
+	margin-left: 0;
+	margin-right: 0.6em;
+	padding-left: 0;
+	padding-right: 16px;
+}
+body.jsn-direction-rtl ul.list-arrow-red li {
+	background: url(../images/icons-arrow-rtl-8.png) no-repeat right 5px;
+}
+body.jsn-direction-rtl ul.list-arrow-blue li {
+	background: url(../images/icons-arrow-rtl-8.png) no-repeat right -102px;
+}
+body.jsn-direction-rtl ul.list-arrow-green li {
+	background: url(../images/icons-arrow-rtl-8.png) no-repeat right -209px;
+}
+/* ============================== MAIN LAYOUT ============================== */
+body.jsn-direction-rtl {
+	text-align: right;
+}
+/* ============================== HEADER COMPONENTS ============================== */
+body.jsn-direction-rtl #jsn-pinset {
+	right: auto;
+	left: 20px;
+}
+body.jsn-direction-rtl #jsn-pinset div.jsn-modulecontainer {
+	float: left;
+}
+body.jsn-direction-rtl #jsn-pinset div.moduletable {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+/* ============================== MAIN MENU ============================== */
+body.jsn-direction-rtl #jsn-pmainmenu {
+	float: right;
+	margin-left: 0;
+	margin-right: 1px;
+	direction: ltr;
+}
+body.jsn-direction-rtl #jsn-ptoolbar {
+	float: left;
+}
+body.jsn-direction-rtl #jsn-ptoolbar div.moduletable {
+	float: left;
+	margin-right: 10px;
+	margin-left: 0;
+}
+/* ============================== CONTENT ============================== */
+body.jsn-direction-rtl #jsn-puser1_grid2 {
+	float: right;
+}
+body.jsn-direction-rtl #jsn-puser2_grid2 {
+	float: left;
+}
+/* ============================== FOOTER COMPONENTS ============================== */
+body.jsn-direction-rtl #jsn-pbottom {
+	text-align: left;
+}
+body.jsn-direction-rtl #jsn-pfooter_grid2 {
+	float: right;
+}
+body.jsn-direction-rtl #jsn-pbottom_grid2 {
+	float: left;
+}
+/* ============================== MODULE STYLES ============================== */
+body.jsn-direction-rtl table.poll td,
+body.jsn-direction-rtl table.poll-box td,
+body.jsn-direction-rtl table.poll-plain td {
+	text-align: right;
+}
+/* =============== MODULE BOX STYLES =============== */
+body.jsn-direction-rtl div.jsn-top_inner,
+body.jsn-direction-rtl div.jsn-bottom_inner {
+	right: auto;
+	left: -15px;
+}
+/* =============== MODULE BACKGROUND STYLES =============== */
+body.jsn-direction-rtl div.module-box div.jsn-top,
+body.jsn-direction-rtl div.module-box div.jsn-middle {
+	background-position: right top;
+}
+body.jsn-direction-rtl div.module-box div.jsn-top_inner,
+body.jsn-direction-rtl div.module-box div.jsn-middle_inner {
+	background-position: left top;
+}
+body.jsn-direction-rtl div.module-box div.jsn-bottom {
+	background-position: right bottom;
+}
+body.jsn-direction-rtl div.module-box div.jsn-bottom_inner {
+	background-position: left bottom;
+}
+/* ======================================== DROP-DOWN MAIN MENU ======================================== */
+/* ==================== MAIN LEVEL ==================== */
+body.jsn-direction-rtl ul#base-mainmenu {
+	direction: rtl;
+}
+body.jsn-direction-rtl ul#base-mainmenu li {
+	margin: 0;
+	padding: 0;
+	float: right;
+	position: relative;
+	border-right: none;
+	border-left: 1px solid #404040;
+	overflow: hidden;
+}
+body.jsn-direction-rtl ul#base-mainmenu li.sfhover {
+	overflow: visible;
+}
+body.jsn-direction-rtl ul#base-mainmenu li a {
+	border-left: 1px solid #000;
+	border-right: none;
+}
+body.jsn-direction-rtl ul#base-mainmenu li a span {
+	background-position: right 1000px;
+}
+/* ==================== 1st SUB-LEVEL ==================== */
+body.jsn-direction-rtl ul#base-mainmenu ul {
+	right: 0;
+	z-index: 90;
+}
+body.jsn-direction-rtl ul#base-mainmenu ul li {
+	border: none;
+}
+body.jsn-direction-rtl ul#base-mainmenu ul li a {
+	border-right: 1px solid #162c40;
+	border-left: none;
+	padding-left: 0;
+	padding-right: 10px;
+}
+body.jsn-direction-rtl ul#base-mainmenu ul li a span {
+	padding-right: 0;
+	padding-left: 10px;
+}
+body.jsn-direction-rtl ul#base-mainmenu ul ul {
+	margin-left: 0;
+	margin-right: 185px;
+}
+/* ==================== PARENT ITEMS ==================== */
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent a span,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent a span,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent li.parent a span {
+	background: url(../images/icons-arrow-rtl-8.png) no-repeat 5px -423px;
+	padding-right: 0;
+	padding-left: 16px;
+}
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent a span.separator,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent a span.separator,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent li.parent a span.separator,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent a span.jsn-menutitle,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent a span.jsn-menutitle,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent li.parent a span.jsn-menutitle,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent a span.jsn-menudescription,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent a span.jsn-menudescription,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent li.parent a span.jsn-menudescription {
+	background: 0;
+	padding-left: 0;
+}
+/* ---------- PARENT ITEMS - CLEAR ---------- */
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent ul a span,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent ul a span,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.parent li.parent li.parent ul a span {
+	background: none;
+	padding-right: 0;
+	padding-left: 10px;
+}
+/* ========== ROLLOVER ACTION ========== */
+body.jsn-direction-rtl ul#base-mainmenu li.sfhover ul,
+body.jsn-direction-rtl ul#base-mainmenu li.sfhover ul li.sfhover ul,
+body.jsn-direction-rtl ul#base-mainmenu li.sfhover ul li.sfhover ul li.sfhover ul {
+	right: 0;
+}
+/* ======================================== TREE MENU ======================================== */
+/* ==================== MAIN LEVEL ==================== */
+body.jsn-direction-rtl ul.menu-treemenu li {
+	padding: 0;
+	margin: 0;
+}
+body.jsn-direction-rtl ul.menu-treemenu li a {
+	padding-left: 0;
+	padding-right: 17px;
+}
+/* ==================== SUB LEVEL ==================== */
+body.jsn-direction-rtl ul.menu-treemenu ul li {
+	margin-left: 0;
+	margin-right: 1em;
+}
+body.jsn-direction-rtl ul.menu-treemenu ul li a {
+	background-position: right -200px;
+}
+/* ========== CURRENT & ACTIVE ITEM ========== */
+body.jsn-direction-rtl ul.menu-treemenu li a.current {
+	background-image: url(../images/icons-arrow-rtl-8.png);
+	background-repeat: no-repeat;
+	background-position: right 9px;
+}
+/* =============== BOTTOM DIV MENU =============== */
+body.jsn-direction-rtl ul.menu-divmenu li {
+	margin: 0;
+	border-right: none;
+	border-left: 1px solid #B3B3B3;
+}
+body.jsn-direction-rtl ul.menu-divmenu li.last {
+	border-left: none;
+}
+/* =============== ICON MENU =============== */
+body.jsn-direction-rtl ul#base-topmenu {
+	float: left;
+}
+/* =============== MODULE SEARCH =============== */
+body.jsn-direction-rtl #jsn-pinset div.search input#mod_search_searchword {
+	background-position: right -254px;
+	padding-left: 0;
+	padding-right: 25px;
+}

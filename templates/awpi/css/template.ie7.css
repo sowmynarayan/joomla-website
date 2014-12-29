@@ -1,0 +1,76 @@
+/* begin Menu */
+.art-nav .r
+{	clip: rect(auto auto auto 970px);
+}
+/* end Menu */
+
+/* begin MenuItem */
+.art-menu a .r
+{
+	clip: rect(auto auto auto 403px);
+}
+/* end MenuItem */
+
+/* begin Box, Block */
+.art-Block-tl
+{
+	clip: rect(auto 8px 8px auto);
+}
+
+.art-Block-tr
+{
+	clip: rect(auto auto 8px 8px);
+}
+
+.art-Block-bl
+{
+	clip: rect(8px 8px auto auto);
+}
+
+.art-Block-br
+{
+	clip: rect(8px auto auto 8px);
+}
+
+.art-Block-tc
+{
+	clip: rect(auto auto 8px auto);
+}
+
+.art-Block-bc
+{
+	clip: rect(8px auto auto auto);
+}
+
+.art-Block-cr
+{
+	clip: rect(auto auto auto 8px);
+}
+
+.art-Block-cl
+{
+	clip: rect(auto 8px auto auto);
+}
+/* end Box, Block */
+
+/* begin BlockHeader */
+.art-BlockHeader .r
+{
+	clip: rect(auto auto auto 982px);
+}
+/* end BlockHeader */
+
+/* begin PostContent */
+.art-PostContent
+{
+	height:1%;
+}
+/* end PostContent */
+
+/* begin Button */
+.art-button-wrapper .r
+{
+	clip: rect(auto auto auto 399px);
+}
+/* end Button */
+

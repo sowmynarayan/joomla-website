@@ -1,0 +1,61 @@
+﻿/* ==============================
+   1. Schriftgröße definieren  */   
+
+
+
+/* ==============================
+   2. Zentrierung von #wrapper */
+
+body { 
+	text-align: center; 
+}
+
+#bg_up{
+	width: 1000px;
+	text-align: left; 
+}
+
+#masthead {
+	width: 1000px;
+}
+#sitetitle {
+	margin-left:70px;
+	padding:0;
+}
+#container { 
+	width: auto;
+	margin:0;
+	padding: 0;
+}
+#user_modules1 {
+	width: auto;
+}
+#user_modules2 {
+	width: auto;
+	margin:0;
+	padding: 0;
+}
+#user5, #user6 {
+	margin:10px;
+	padding: 0;
+}
+#top {
+	width: auto;
+}
+.content {
+	width: auto;
+}
+
+table.moduletable th, div.moduletable h3, .moduletable_text h3, .moduletable_menu h3 {
+	width: auto;
+	font-size: 11px;
+}
+li {
+	background-image : none;
+}
+li:hover {
+	background-image : none;
+}
+.blog_more ul li {
+	background-image:none;
+}

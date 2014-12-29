@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE project>
+<metadata>
+	<layout title="COMMENT_LAYOUT">
+		<message>
+			<![CDATA[COMMENT_LAYOUT_DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>COMMENT_LAYOUT</name>
+		<description>COMMENT_LAYOUT_DESC</description>
+		<params>
+			<param name="orderby_pri" type="list" default="rdate" label="PRIMARY_ORDER" description="PRIMARY_ORDER_DESC">
+				<option value="date">ORDER_OLDEST_FIRST</option>
+				<option value="rdate">ORDER_MOST_RECENT_FIRST</option>
+			</param>
+			<param name="articleid" type="text" default="0" label="ID of Article, for which to show comments" description=""/>
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+		</params>
+		<advanced>
+			<param name="show_pagination" type="list" default="1" label="Pagination" description="Show/Hide Pagination support">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			<!-- 
+			<param name="show_pagination_limit" type="radio" default="1" label="Display Select" description="Show/Hide the Display Select dropdown">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			 -->
+		</advanced>
+	</state>
+</metadata>

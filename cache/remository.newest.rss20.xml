@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.3" -->
+<rss version="2.0">
+	<channel>
+		<title>Recent Files</title>
+		<description>Latest from our file repository</description>
+		<link>http://sowmynarayan.exofire.net/projects</link>
+		<lastBuildDate>Thu, 27 May 2010 04:57:53 +0100</lastBuildDate>
+        <generator>FeedCreator 1.7.3</generator>
+		<image>
+			<url>http://sowmynarayan.exofire.net/components/com_remository/images/header.gif</url>
+			<title>Recent Files</title>
+			<link>http://sowmynarayan.exofire.net/projects</link>
+			<description>Sowmy Narayan</description>
+		</image>
+		<item>
+			<title>TOSS Menu</title>
+			<link>http://sowmynarayan.exofire.net/projects/projects/TOSS-Menu/</link>
+			<description>Cairo Menu modified specially for TOSS.Intended to be a replacement for the boring default GNOME Menu and bring Windows style Start menu for Linux ... (Projects)</description>
+			<pubDate>Sun, 27 Dec 2009 13:09:48 +0100</pubDate>
+			<guid>http://sowmynarayan.exofire.net/projects/projects/TOSS-Menu/</guid>
+		</item>
+		<item>
+			<title>TOSSDM</title>
+			<link>http://sowmynarayan.exofire.net/projects/projects/TOSSDM/</link>
+			<description>A simple Desktop manager for GNOME.Not much you can do with it other than setting whether you want each subfolder to open in a separate window (lik... (Projects)</description>
+			<pubDate>Sun, 27 Dec 2009 13:04:13 +0100</pubDate>
+			<guid>http://sowmynarayan.exofire.net/projects/projects/TOSSDM/</guid>
+		</item>
+		<item>
+			<title>TOSS Archive</title>
+			<link>http://sowmynarayan.exofire.net/projects/projects/TOSS-Archive/</link>
+			<description>Ever felt the need for backing up your entire Home directory and then getting frustrated that you have to copy all folders one by one?Not anymore!... (Projects)</description>
+			<pubDate>Sun, 27 Dec 2009 12:57:10 +0100</pubDate>
+			<guid>http://sowmynarayan.exofire.net/projects/projects/TOSS-Archive/</guid>
+		</item>
+		<item>
+			<title>TOSSync</title>
+			<link>http://sowmynarayan.exofire.net/projects/projects/TOSSync/</link>
+			<description>Imagine you are working on a project from different locations (say, office and home) and frequently need to synchronise your folders i.e update you... (Projects)</description>
+			<pubDate>Sun, 27 Dec 2009 12:39:25 +0100</pubDate>
+			<guid>http://sowmynarayan.exofire.net/projects/projects/TOSSync/</guid>
+		</item>
+	</channel>
+</rss>

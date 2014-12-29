@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>b59-tpl16</name>
+	<creationDate>27/11/09</creationDate>
+	<author>B59</author>
+	<authorEmail>info@b-59.com</authorEmail>
+	<authorUrl>http://www.b-59.com</authorUrl>
+	<copyright>B59_TPL16 Joomla 1.5 Template</copyright>
+	<license>GPL</license>
+	<version>1.0</version>
+	<description>B59_TPL16 Joomla 1.5 Template</description>
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		<filename>images/index.html</filename>
+		<filename>images/arrow.png</filename>
+		<filename>images/bottommod_bg.jpg</filename>
+		<filename>images/bottommod_bottom.jpg</filename>
+		<filename>images/bottommod_top.jpg</filename>
+		<filename>images/content_bg.jpg</filename>
+		<filename>images/content_bottom.jpg</filename>
+		<filename>images/content_top.jpg</filename>
+		<filename>images/contentheading.jpg</filename>
+		<filename>images/header.jpg</filename>
+		<filename>images/mainmenu.jpg</filename>
+		<filename>images/mainmod_bg.jpg</filename>
+		<filename>images/mainmod_bottom.jpg</filename>
+		<filename>images/mainmod_top.jpg</filename>
+		<filename>images/search.gif</filename>
+		<filename>css/index.html</filename>
+		<filename>css/template.css</filename>
+		<filename>css/layout.css</filename>
+		<filename>html/index.html</filename>
+		<filename>html/modules.php</filename>
+		<filename>html/mod_search/index.html</filename>
+		<filename>html/mod_search/default.php</filename>
+		<filename>html/mod_footer/index.html</filename>
+		<filename>html/mod_footer/default.php</filename>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+	</positions>
+	<params>
+		<param name="sitesloganactive" type="list" default="yes" label="Slogan/Text anzeigen" description="Soll Slogan oder Text angezeigt werden?">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</param>
+		<param name="siteslogantext" default="Name oder Text..." type="text" label="Site Slogan/Text" description="Geben Sie hier Ihren Text oder Slogan an.">
+		</param>
+	</params>
+</install>

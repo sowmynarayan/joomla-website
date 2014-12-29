@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>dj_lernvid.com</name>
+	<creationDate>05.11.2009</creationDate>
+	<author>Juergen Koller</author>
+	<copyright>LernVid.com</copyright>
+	<authorEmail>webmaster@lernvid.com</authorEmail>
+	<authorUrl>http://www.lernvid.com</authorUrl>
+	<version>1.2</version>
+	<description>
+	<![CDATA[
+	<hr>
+	<h1 style="padding:10px;">DJ -  by LernVid.com</h1>
+	<p style="padding:5px;">Author <a href="http://lernvid.com" target="_blank">Lernvid.com - Lernvideos Tutorials Templates PSD-Files and more... </a>.</p>
+	<p style="padding:5px;">Its not allowed to delete the Backlink to the autor! More information: <a href="http://www.lernvid.com" target="_blank">www.lernvid.com </a></p>
+	<p style="padding:5px;">Licence =  Creative Commons Sharalike: <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.de" target="_blank">Creative Commons Lizenz Mulilanguage </a></p>
+	<p style="padding:5px;">LernVid.com wishes you much fun with the tamplate!</a></p>
+	<p style="padding:5px;">Support under: <a href="http://www.board.lernvid.com" target="_blank">Supportforum - LernVid.com</a></p>	
+	<img src="../templates/dj_lernvid.com/template_thumbnail.png" align="left" hspace="10" style="padding:10px;" />
+	]]>  
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>css/index.html</filename>
+		<filename>images/index.html</filename>
+		<filename>js/hover.js</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+		<images>
+		<filename>images/article_separator.jpg</filename>
+		<filename>images/bg.jpg</filename>
+		<filename>images/bg_up.jpg</filename>
+		<filename>images/bottom.jpg</filename>
+		<filename>images/button_bg.gif</filename>
+		<filename>images/button_bg_hover.gif</filename>
+		<filename>images/componentheading.jpg</filename>
+		<filename>images/container.jpg</filename>
+		<filename>images/content.gif</filename>
+		<filename>images/contentheading.jpg</filename>
+		<filename>images/designed.gif</filename>
+		<filename>images/header.jpg</filename>
+		<filename>images/list.png</filename>
+		<filename>images/list_hover.png</filename>
+		<filename>images/menu.jpg</filename>
+		<filename>images/menu_hover.jpg</filename>
+		<filename>images/module_bottom.gif</filename>
+		<filename>images/module_h3.gif</filename>
+		<filename>images/navi.gif</filename>
+		<filename>images/sidebar_left.jpg</filename>
+		<filename>images/user_h3.gif</filename>
+		<filename>images/emailButton.png</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>
+		<filename>params.ini</filename>
+		</images>
+	<css>
+		<filename>css/template.css</filename>
+		<filename>css/ie5x6x.css</filename>
+		<filename>css/ie7.css</filename>
+		<filename>css/reset.css</filename>
+	</css>
+	<params>		
+     	<param name="useJavascript" type="radio" default="1" label="Use Javascript?" description="Here you can decide if you want to use the Javascript Effects in the Template or not.">
+	      <option value="0">No</option>
+	      <option value="1">Yes</option>
+	    </param>
+	</params>
+	<positions>
+		<position>left</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+        <positions>
+		<position>right</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+</install>

@@ -1,0 +1,54 @@
+/**
+* author    JoomlaShine.com http://www.joomlashine.com
+* copyright Copyright (C) 2006 - 2009 JoomlaShine.com. All rights reserved.
+* license   Copyrighted Commercial Software
+* This file may not be redistributed in whole or significant part.
+*/
+#jsn-master {
+	background-color: #172534;
+	background-image: url(../images/blue/master-bg.jpg);
+}
+/* ==================== DROP-DOWN MAIN MENU ==================== */
+ul#base-mainmenu ul {
+	background-color: #284d73;
+}
+div.jsn-modulecontainer ul#base-mainmenu ul li a {
+	border-top: 1px solid #366999;
+	border-bottom: 1px solid #162c40;
+	border-left: 1px solid #162c40;
+}
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li a {
+	border-left: none;
+	border-right: 1px solid #162c40;
+}
+/* ---------- HOVER STATE ---------- */
+div.jsn-modulecontainer ul#base-mainmenu ul li.sfhover a,
+div.jsn-modulecontainer ul#base-mainmenu ul li.sfhover li.sfhover a,
+div.jsn-modulecontainer ul#base-mainmenu ul li.sfhover li.sfhover li.sfhover a,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.sfhover a,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.sfhover li.sfhover a,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.sfhover li.sfhover li.sfhover a {
+	border-top-color: #1f3d59;
+	background-color: #1f3d59;
+}
+/* ---------- HOVER STATE - CLEAR ---------- */
+div.jsn-modulecontainer ul#base-mainmenu ul li.sfhover ul a,
+div.jsn-modulecontainer ul#base-mainmenu ul li.sfhover li.sfhover ul a,
+div.jsn-modulecontainer ul#base-mainmenu ul li.sfhover li.sfhover li.sfhover ul a,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.sfhover ul a,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.sfhover li.sfhover ul a,
+body.jsn-direction-rtl div.jsn-modulecontainer ul#base-mainmenu ul li.sfhover li.sfhover li.sfhover ul a {
+	border-top-color: #366999;
+	background-color: transparent;
+}
+/* =============== TREE MENU =============== */
+ul.menu-treemenu li a {
+	background-position: left 10px;
+}
+body.jsn-direction-rtl ul.menu-treemenu li a {
+	background-position: right 10px;
+}
+/* ============================== LINKS STYLE ============================== */
+div.box-grey a {
+	color: #40afff;
+}

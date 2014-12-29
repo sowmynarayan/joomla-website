@@ -1,0 +1,95 @@
+1. Metadata
+-----------
+File version:	$Id: CHANGELOG.txt 2 2009-08-30 15:10:43Z yvolk $
+Description:	yvComment - Commenting solution, see http://yurivolkov.com/Joomla/yvComment/index_en.html
+Copyright:		Copyright (C) 2007-2009 yvolk (Yuri Volkov), http://yurivolkov.com. All rights reserved.
+License:		GNU General Public License version 2 or later; see LICENSE.txt
+
+2. Changelog
+------------
+ 
+Legend:
+
+ * -> Security Fix
+ # -> Bug Fix
+ $ -> Language fix or change
+ + -> Addition
+ ^ -> Change
+ - -> Removed
+ ! -> Note 
+
+v.1.24.000 30-August-2009 yvolk. Notify Authors about comments on their Articles.
+ # Typo in "show_noauth" parameter (of com_content), so yvComment never showed "UnAuthorized Links" (thanks to Peter vd Hulst for the fix)
+ + Added 'Notify Authors about comments on their Articles' option to allow email notifications of Authors of Articles (and of Comments).
+ + Added extension-independent interface (Joomla! event) to allow subscription on notifications per Author.
+ + Added 'Content Subscription - Acajoom' plugin that implements subscribtion interface for "Acajoom News v.4.1.3" Joomla! extension. Thanks to "lemur1" for providing the idea and code for integration with Acajoom.
+ + yvComment project SVN repository created at JoomlaCode to simplify developers collaboration.  
+
+v.1.23.000 11-July-2009 yvolk. OpenID integration.
+ + Added the "Use OpenID" option to identify a commentor using OpenID external service. More details on the Homepage...
+ ^ If 'Delay loading captcha image' option is set	to 'Yes' AND text of a Comment is not empty - Captcha loading is NOT delayed (this is how it should be from the start...).
+ # 'Delay loading captcha image' javascript code was fixed to be compatible both with MSIE and Mozilla Firefox
+ + Added the "Publish/Unpublish" button (visible for admins only) to publish/unpublish a Comment in one click.
+ + Added the "Show comments on Comment" option to the module and "List of Comments" view. Set it to 'No' to see all comments, including comments on comments, in one ordered (non threaded) list. This is especially useful for the "Latest comments" list in the module.
+ ^ Almost all CSS classes were renamed to avoid conflicts with poorly written templates, e.g. class='Header'-> class='CommentHeader' etc.
+ ^ Other refactoring, in particular: 'global $yvComment' is no longer present... 
+ 
+v.1.22.000 16-May-2009 yvolk. Community Builder integration.
+ # Links to the archived articles are wrong (lead to the root)
+ # Filter by sections, categories and by articles in the module was not correct for some cases (thanks to Peter v.d. Hulst)
+ + Added third value to the "Author name linkable" option: "Link to the CB profile" (requires Community Builder extension v.1.2)
+ + New yvCommentCBPlugin was created - plugin for "Community Builder" extension v.1.2. It provides a 'Comments' user Tab (to the CB User Profile) that shows all Comments written by the user.
+ + Added "Read more" link support. So if e.g. comments are being added using WYSIWYG editor, user may create intro and fulltext of the comment. BTW, "Alternative Read more text" parameter is also supported (although yvComment doesn't provide interface to set it...)
+ + Access control improved. Now users of the "Registered" group are not allowed to edit their own comments. Joomla! 1.5 core doesn't have any user's group, that may add content, but may not edit their own content, so yvComment still acts not exactly the same way as Joomla! core (let's wait for Joomla! 1.6...')     
+
+v.1.21.001 15-March-2009 yvolk
+ # 404 error for some "Comments(n)" links 
+
+v.1.21.000 08-March-2009 yvolk. Comments on blog pages.
+ ^ yvComment now (by default) stores text of the Comment in the 'introtext' field of the database table (and not in the 'fulltext' field as before). This increases compatibility with Comments, created by yvComment and Articles, created or edited by Joomla! core (or compatible extensions).
+ + "Use designated Section and Category for comments"	option.
+ + The three options: "What to show on article page/frontpage/other page" to allow e.g. to see comments directly in the blog view below each article.
+ ^ Values of the "Position of 'Add your comment' form" option where changed. There are 'above/below a list of comments' positions.  
+ # yvComment module doesn't work, if yvComment plugin or yvComment component was not loaded
+ # Content link bug, if Joomla was installed not in the root of the site (function ContentIDToURL v.008)
+ ^ Web page title on yvComment component page is set by yvComment: "ArticleTitle - ActionWithComment".
+ 
+v.1.20.000 25-January-2009 yvolk
+ + The "Most commented" view was added to be used mostly in the module. This	view shows the list of articles in the descending order of number of comments for each article. Number of comments is shown also.
+ + "Max characters in the text of comment" parameter was added to the listofcomments/mostcommented views (and to the module) to limit the number of characters in the text for long titles (comments).
+ + "IDs of commented Articles" filter added to the listofcomments/mostcommented views (and to the module) (Thanks to Peter v.d. Hulst).
+ + "Limit results to previous" filter was added to the listofcomments/mostcommented views (and to the module). So user may see not only "All" items in the list, but	filter out results for 1 day, week, month, year (just like in search form of Joomla! forum and in phpBB3 in general).
+ + Access level of Comment is set the same as access level of the	commented (parent) Article during creation (editing) of the Comment.
+ + "Delete to Trash" option was added, that makes 'comments	deletion' much like 'Article Trash' in the Article Manager. If this	option is set to 'Yes', comments are not deleted from database, until	an Administrator deletes them from the 'Article Trash'. This option	works only if Comments are set to use the Content table.
+ + New value to "Allow comments on comment" option was added: "Administrator's reply only". - Same as "Owner's reply only", but only Administrators (or other users, who have 'all rights' to edit content) are allowed to add comment on Comment.
+ ^ "Immediately publish guest comments" option was renamed to "Immediately publish comments". This	"Global moderation option" allows you to control, if you	want comments, created by users, to be visible to all visitors of the site just after they are added.
+ $ GUEST_ADD_PUBLISHED... was changed to ADD_PUBLISHED... (meaning changed also, see above) 
+ # PHP4 parsing error in helpers.php file
+ # "500 - layout 'blog' not found" error, and I think "404 page not found" error, that appeared in some configurations
+
+v.1.19.003 15-November-2008 yvolk
+ # bug if 'Use Content Table'=No: The comment was not found.: ArticleID=0; (Child ArticleID=NNN)
+ ^ Above message was changed to be more informative for admin: 'This content item (id=NN; title='Title of the article') is Comment (based on its SectionID), but it has no parent Article...'
+ # Comment add/edit/preview page was Frontpage, now it is the same as page, where 'Add your comment' button was pressed
+ # [#13137] 'Comments on comments are not showing up in List of Comments, filtered by state'
+
+v.1.19.002 21-October-2008 yvolk
+ # Links to uncategorized articles were not created ( so there was e.g. Comments(0) without link)
+ # Extra apostrophe in templates (was: class='Header' )
+ $ String was added (same as in com_content): ARTICLE MUST HAVE SOME TEXT=
+ $ String was added: COMMENT_LINKABLE_DESC
+
+v.1.19.001 24-September-2008 yvolk
+ # "Powered by yvComment" was shown almost everywhere
+
+v.1.19.000 21-September-2008 yvolk
+ # [#12099] Unable to return to list of comments in Administrator
+ + yvComment is 'Print aware' now: forms, buttons and links to add comments are hidden from 'print' page of the Article
+ + "Allow comments on comment" global option for yvComment
+ + "Comment Linkable" option
+ ^ "Position of comments" option was replaced with three options: "Position of comments in Article view", 
+   "Position of comments on the Frontpage" and "Position of comments in other views"
+ + "List of IDs of Articles which may, or may not, contain comments" option
+ + Image to show, if comments are closed
+ + "Delay loading captcha image" option, that enables to delay loading captcha image until user starts to type text of comment
+ + Five new translations (new languages) since previous release

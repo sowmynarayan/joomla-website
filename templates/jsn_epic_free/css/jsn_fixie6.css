@@ -1,0 +1,67 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2006 - 2009 JoomlaShine.com. All rights reserved.
+* @license   Copyrighted Commercial Software
+* This file may not be redistributed in whole or significant part.
+*/
+body {
+	font-size: 12px;
+}
+.clearafter,
+div.grid-layout,
+ul.menu-treemenu li,
+ul.list-arrow-red li,
+ul.list-arrow-blue li,
+ul.list-arrow-green li {
+	height: 1%;
+}
+#jsn-puser1_grid2,
+#jsn-puser2_grid2 {
+	overflow: hidden;
+}
+blockquote {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+pre {
+	width: 100%;
+}
+#jsn-pcentercol {
+	overflow: hidden;
+}
+body.jsn-direction-rtl #jsn-pcentercol {
+	height: auto !important;
+}
+/* ======================================== BREADCRUMBS ======================================== */
+#jsn-pbreadcrumbs span {
+	display: inline;
+	height: 1%;
+}
+#jsn-pbreadcrumbs span a {
+	margin-right: 3px;
+	background-position: right -315px;
+}
+body.jsn-direction-rtl #jsn-pbreadcrumbs span a {
+	margin-right: 0;
+	background-position: left -315px;
+}
+/* ======================================== DROP-DOWN MAIN-MENU ======================================== */
+/* ==================== MAIN LEVEL ==================== */
+ul#base-mainmenu li {
+	position: relative;
+}
+ul#base-mainmenu li a span {
+	display: inline;
+}
+ul#base-mainmenu ul li a span {
+	display: block;
+}
+ul#base-mainmenu li span.jsn-menutitle,
+ul#base-mainmenu li span.jsn-menudescription {
+	display: block;
+}
+body.jsn-direction-rtl ul#base-mainmenu li.sfhover ul,
+body.jsn-direction-rtl ul#base-mainmenu li.sfhover ul li.sfhover ul,
+body.jsn-direction-rtl ul#base-mainmenu li.sfhover ul li.sfhover ul li.sfhover ul {
+	right: -2px;
+}

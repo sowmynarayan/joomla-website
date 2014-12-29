@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE project>
+<metadata>
+	<layout title="LIST_LAYOUT">
+		<message>
+			<![CDATA[LIST_LAYOUT_DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>LIST_LAYOUT</name>
+		<description>LIST_LAYOUT_DESC</description>
+		<params>
+			<param name="show_comments_on_comment" type="list" default="1" label="SHOW_COMMENTS_ON_COMMENT" description="SHOW_COMMENTS_ON_COMMENT_DESC">
+			  <option value="0">NO</option>
+			  <option value="1">YES</option>
+			</param>
+			<param name="orderby_pri" type="list" default="rdate" label="PRIMARY_ORDER" description="PRIMARY_ORDER_DESC">
+				<option value="date">ORDER_OLDEST_FIRST</option>
+				<option value="rdate">ORDER_MOST_RECENT_FIRST</option>
+			</param>
+			<param name="articlesectionidsfilter" type="textarea" default="" rows="3" cols="20" label="SECTIONS_OF_ARTICLES_FILTER" description="SECTIONS_OF_ARTICLES_FILTER_DESC"/>
+			<param name="articlecategoryidsfilter" type="textarea" default="" rows="3" cols="20" label="CATEGORIES_OF_ARTICLES_FILTER" description="CATEGORIES_OF_ARTICLES_FILTER_DESC"/>
+			<param name="articleidsfilter" type="textarea" default="" rows="3" cols="20" label="ARTICLES_FILTER" description="ARTICLES_FILTER_DESC"/>
+			<param name="articlesectionids_excludefilter" type="radio" default="0" label="SECTIONS_OF_ARTICLES_EXCLUDE" description="">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="result_days" type="list" default="all" label="RESULT_DAYS" description="RESULT_DAYS_DESC">
+				<option value="all">ALL_RESULTS</option>
+				<option value="1day">1_DAY</option>
+				<option value="7days">7_DAYS</option>
+				<option value="2weeks">2_WEEKS</option>
+				<option value="1month">1_MONTH</option>
+				<option value="3months">3_MONTHS</option>
+				<option value="6months">6_MONTHS</option>
+				<option value="1year">1_YEAR</option>
+			</param>
+			<param name="show_pagination" type="list" default="1" label="Pagination" description="Show/Hide Pagination support">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			<!-- 
+			<param name="show_pagination_limit" type="radio" default="1" label="Display Select" description="Show/Hide the Display Select dropdown">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			 -->
+		</params>
+	</state>
+</metadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE project>
+<config>
+ <params>
+  <param name="testparm" type="radio" default="1" label="Test parameter" description="This is test parameter">
+   <option value="0">Hide</option>
+   <option value="1">Show</option>
+  </param>
+  <param name="description_text" type="textarea" default="This is test param of yvComment... all real parameters are in plugin :-)" label="yvComment Intro" rows="3" cols="50" description="" />
+ </params>
+</config>

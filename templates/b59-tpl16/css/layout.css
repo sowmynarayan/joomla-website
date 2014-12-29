@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:15px 0;
+	padding:0;
+}
+
+div#body_container {
+	margin:0 auto;
+	width:1004px;
+	overflow:hidden;
+}
+
+div#top_container {
+	float:right;
+	margin-right:2px;
+}
+
+div#site_header {
+	clear:both;
+	position:relative;
+}
+
+a.logo_link {
+	position:absolute;
+	top:30px;
+	left:65px;
+	display:inline-block;
+	height:50px;
+	width:50px;
+}
+
+h1.site_slogan {
+	position:absolute;
+	top:80px;
+	left:20px;
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+
+div#panel_container {
+	margin:10px 0 16px 0;
+}
+
+div.search_container {
+	float:left;
+	padding:0 0 0 4px;
+}
+
+#mod_search_searchword {
+	width:150px;
+	margin:0;
+}
+
+#search_button {
+	margin:0px 6px 0 6px;
+}
+
+div.breadcrumb_container {
+	margin:0 0 0 197px;
+	padding:3px 0 0 0;
+}
+
+div#mainarea {
+	clear:both;
+}
+
+div#left_colm {
+	width:185px;
+	float:left;
+}
+
+div#right_colm {
+	width:185px;
+	float:right;
+}
+
+div.message_container {
+	width:612px;
+}
+
+div#content_area {
+	margin:0px 190px 0 195px;
+}
+
+div.mainmod_top {
+	background-image:url(../images/mainmod_top.jpg);
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	height:36px;
+         overflow:hidden;
+}
+
+div.mainmod_top h3 {
+	margin:12px 10px 0 0px;
+}
+
+div.mainmod_content_container {
+	background-image:url(../images/mainmod_bg.jpg);
+	background-position:left;
+	background-repeat:repeat-y;
+	overflow:hidden;
+}
+
+div.mainmod_content {
+	padding:1px 8px 1px 5px;
+}
+
+div.mainmod_bottom {
+	background-image:url(../images/mainmod_bottom.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:23px;
+	overflow:hidden;
+}
+
+div.content_top {
+	background-image:url(../images/content_top.jpg);
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	overflow:hidden;
+	width:612px;
+	height:8px;
+}
+
+div#content_main {
+	background-image:url(../images/content_bg.jpg);
+	background-repeat:repeat-y;
+	background-position:left;
+	overflow:hidden;
+	width:612px;
+}
+
+div.content_main {
+	padding:8px 15px 12px 15px;
+}
+
+div.content_bottom {
+	background-image:url(../images/content_bottom.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	overflow:hidden;
+	width:612px;
+	height:30px;
+}
+
+div.bottommod_top {
+	background-image:url(../images/bottommod_top.jpg);
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	overflow:hidden;
+	width:612px;
+	height:8px;
+}
+
+div.bottommod_content {
+	background-image:url(../images/bottommod_bg.jpg);
+	background-repeat:repeat-y;
+	background-position:left;
+	overflow:hidden;
+	width:612px;
+}
+
+div.bottommod_bottom {
+	background-image:url(../images/bottommod_bottom.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	overflow:hidden;
+	width:612px;
+	height:20px;
+}
+
+h3.bottommodule_title {
+	margin:20px 3px 10px 1px;
+	padding:5px 0 5px 40px;
+         background:#ccc;
+}
+
+div.bottommod_left {
+	float:left;
+	width:305px;
+}
+
+div.bottommod_right {
+	margin-left:305px;
+}
+
+div.bottommod_left h3.bottommodule_title {
+	margin:20px 0 10px 1px;
+}
+
+div.bottommod_right h3.bottommodule_title {
+	margin:20px 3px 10px 0;
+}
+
+
+
+div.clear {
+	clear:both;
+}
+
+div#bottom2 {
+	margin:0 auto;
+	width:1004px;
+	padding:10px 4px 0 4px;
+	overflow:hidden;
+	border-top:1px solid #808080;
+}
+
+div.copyright {
+	float:right;
+}
+
+div.link_bottom {
+	float:left;
+       color:#ccc;
+}
