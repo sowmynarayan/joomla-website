@@ -36,8 +36,8 @@ class JConfig {
 	var $db = 'sowmynar_joomla';
 	var $dbprefix = 'jos_';
 	var $mailer = 'mail';
-	var $mailfrom = 'sowmynarayan2990@yahoo.in';
-	var $fromname = 'Sowmy Narayan';
+	var $mailfrom = 'sxxxxx2990@yahoo.in';
+	var $fromname = 'Sxx Nxx';
 	var $sendmail = '/usr/sbin/sendmail';
 	var $smtpauth = '0';
 	var $smtpsecure = 'none';
@@ -49,8 +49,8 @@ class JConfig {
 	var $MetaTitle = '1';
 	var $lifetime = '15';
 	var $session_handler = 'database';
-	var $password = 'liverpool01';
-	var $sitename = 'Sowmy Narayan';
+	var $password = 'lxxxxxxxx01';
+	var $sitename = 'Sowmy';
 	var $MetaDesc = 'Sowmy Narayan\'s personal site cum blog.';
 	var $MetaKeys = 'sowmy narayan,toss,sowmy,ironman,cryptic crap';
 	var $offline_message = 'This site is down for maintenance. Please check back again soon.';
